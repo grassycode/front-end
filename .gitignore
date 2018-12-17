@@ -3,3 +3,5 @@ bs-container/e2e/src/app.po.ts
 bs-container/e2e/src/app.e2e-spec.ts
 bs-container/e2e/protractor.conf.js
 bs-container/.editorconfig
+side-bar/e2e/
+side-bar/package-lock.json
