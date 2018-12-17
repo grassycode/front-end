@@ -1,6 +1,3 @@
-body {
-    background-color: yellow;
-}
 .base {
     border: 1px solid black;
     min-height: 700px;
@@ -21,11 +18,22 @@ body {
     height:60px;   /* Height of the footer */
     background:#6cf; 
 }
-
+.content {
+    min-height: inherit;
+}
 .l-sidebar {
+    border: 1px solid black;
+    min-height: inherit;
+    /* height: inherit; */
 
 }
 
+.c-content {
+    border: 1px solid black;
+    min-height: inherit;
+}
+
 .main {
+    border: 1px solid black;
 
 }
