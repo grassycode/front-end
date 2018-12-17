@@ -24,6 +24,9 @@
 .l-sidebar {
     border: 1px solid black;
     min-height: inherit;
+    width: inherit;
+    background-color: gray;
+    padding: 0px;
     /* height: inherit; */
 
 }

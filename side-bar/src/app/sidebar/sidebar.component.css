@@ -1,0 +1,37 @@
+.sbar-element {
+    /* background-color: gray; */
+    width: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin: inherit;
+}
+
+.h-divider {
+    border: 1px solid black;
+    width: inherit;
+}
+
+
+.side-nav {
+    background-color: inherit;
+    color: black;
+    width: inherit;
+}
+
+.sbar-element:hover {
+    background: yellowgreen;
+    color: white;
+}
+.sbar-element:active {
+    background: yellowgreen;
+    color: white;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: red;
+}
