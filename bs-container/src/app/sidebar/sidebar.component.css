@@ -6,10 +6,17 @@
     font-size: 2em;
     margin: inherit;
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
 .h-divider {
     border: 1px solid black;
     width: inherit;
+}
+.active {
+    background: yellowgreen;
+    color: white;
 }
 
 

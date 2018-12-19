@@ -1,0 +1,80 @@
+{
+    "properties": [
+        {
+            "address": {
+                "streetNo": 1,
+                "addressLine1": "Davisville Ave",
+                "addressLine2": "",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CA",
+                "postalCode": "M4S1G8"
+            },
+            "userId": {
+                "email": "hazel@nguyen.sm",
+                "password": "Robyn",
+                "firstName": "Tracey",
+                "middleName": "Marcus",
+                "secondName": "Justin",
+                "gender": "F",
+                "status": "CHECK",
+                "dob": 1,
+                "properties": {}
+            },
+            "units": [
+                {
+                    "num_rooms": 4,
+                    "kitchen": 1,
+                    "washroom": 2,
+                    "parking": 4,
+                    "rent": null
+                },
+                {
+                    "num_rooms": 4,
+                    "kitchen": 1,
+                    "washroom": 2,
+                    "parking": 4,
+                    "rent": null
+                }
+            ]
+        },
+        {
+            "address": {
+                "streetNo": 2,
+                "addressLine1": "Davisville Ave",
+                "addressLine2": "",
+                "city": "Toronto",
+                "province": "ON",
+                "country": "CA",
+                "postalCode": "M4S1G8"
+            },
+            "userId": {
+                "email": "hazel@nguyen.sm",
+                "password": "Robyn",
+                "firstName": "Tracey",
+                "middleName": "Marcus",
+                "secondName": "Justin",
+                "gender": "F",
+                "status": "CHECK",
+                "dob": 1,
+                "properties": {}
+            },
+            "units": [
+                {
+                    "num_rooms": 4,
+                    "kitchen": 1,
+                    "washroom": 2,
+                    "parking": 4,
+                    "rent": null
+                },
+                {
+                    "num_rooms": 4,
+                    "kitchen": 1,
+                    "washroom": 2,
+                    "parking": 4,
+                    "rent": null
+                }
+            ]
+        }
+    ]
+}
