@@ -1,0 +1,24 @@
+<form [formGroup]="unitForm">
+  <h2>Unit</h2>
+  <div class="form-group">
+    <label for="unitNo">unit</label>
+    <input type="number" class="form-control" id="unitNo" aria-describedby="unitNumber" placeholder="Unit No" formControlName="unitNo">
+  </div>
+  <div class="form-group">
+    <label for="bathrooms">Number of bathrooms</label>
+    <input type="number" class="form-control" id="bathrooms" aria-describedby="numberofbathrooms" placeholder="" formControlName="bathrooms">
+  </div>
+  <div class="form-group">
+    <label for="kitchens">Number of kitchens</label>
+    <input type="number" class="form-control" id="kitchens" aria-describedby="numberofkitchens" placeholder="" formControlName="kitchens">
+  </div>
+  <div class="form-group">
+    <label for="living-room">Number of living rooms</label>
+    <input type="number" class="form-control" id="living-room" aria-describedby="livingroom" placeholder="" formControlName="livingRooms">
+  </div>
+
+  <button type="button" class="btn btn-primary" (click)="addAnother()">SAVE</button>
+
+  <button type="button" class="btn btn-primary" (click)="saveAndExit()">ADD UNITS</button>
+
+</form>

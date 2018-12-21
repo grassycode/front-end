@@ -7,21 +7,32 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MainRoutingModule } from './main-routing.module';
 import { RouterModule } from '@angular/router';
-import { MainModule } from './main.module';
 import { ContentComponent } from './content/content.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { ErrorsComponent } from './errors/errors.component';
+import { AddPropertyComponent } from './content/add-property/add-property.component';
+import { AddUnitComponent } from './content/add-unit/add-unit.component';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaseComponent,
     SidebarComponent,
-    ContentComponent
+    ContentComponent,
+    ContactsComponent,
+    ErrorsComponent,
+    AddPropertyComponent,
+    AddUnitComponent
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
+    CollapseModule,
     HttpClientModule,
     RouterModule,
-    MainModule
+    MainRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

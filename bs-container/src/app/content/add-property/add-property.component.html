@@ -1,0 +1,38 @@
+<form  [formGroup]="propertyForm">
+  <div class="form-group">
+    <h2>Address</h2>
+    <label for="streetno">Street number</label>
+    <input type="number" class="form-control" id="streetno" aria-describedby="streetnoAddress" placeholder="Street Number" formControlName="streetNo">
+  </div>
+  <div class="form-group">
+    <label for="street">Street</label>
+    <input type="text" class="form-control" id="street" placeholder="Street Address" formControlName="streetName">
+  </div>
+  <div class="form-group">
+    <label for="adressLine">Address line (Optional)</label>
+    <input type="text" class="form-control" id="adressLine" placeholder="Address Landmark / more info" formControlName="addressLine">
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" class="form-control" id="city" placeholder="City" formControlName="city">
+  </div>
+  <div class="form-group">
+    <label for="country">Country</label>
+    <input type="text" class="form-control" id="country" placeholder="country" formControlName="country">
+  </div>
+  <div class="form-group">
+    <label for="postal">Postal code</label>
+    <input type="text" class="form-control" id="postal" placeholder="M4T1N6" formControlName="postalCode">
+  </div>
+  <!-- <div class="form-group">
+    <button type="button" class="btn btn-primary" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">Toggle collapse
+    </button>
+    <div id="collapseBasic" [collapse]="isCollapsed" class="card card-block card-header">
+      <app-add-unit></app-add-unit>
+    </div>
+  </div> -->
+  <button type="button" class="btn btn-primary" (click)="saveProperty()">SAVE</button>
+
+  <button type="button" class="btn btn-primary" (click)="saveAndContinue()">ADD UNITS</button>
+  
+</form>

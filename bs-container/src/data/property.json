@@ -1,58 +1,21 @@
 [
     {
-        "address": {
-            "streetNo": 1,
-            "addressLine1": "Davisville Ave",
-            "addressLine2": "",
-            "city": "Toronto",
-            "province": "ON",
-            "country": "CA",
-            "postalCode": "M4S1G8"
-        },
-        "userId": null,
-        "units": [
-            {
-                "num_rooms": 4,
-                "kitchen": 1,
-                "washroom": 2,
-                "parking": 4,
-                "rent": null
-            },
-            {
-                "num_rooms": 4,
-                "kitchen": 1,
-                "washroom": 2,
-                "parking": 4,
-                "rent": null
-            }
-        ]
+        "city": "Toronto",
+        "units": 2,
+        "monthly_expense": 1500,
+        "total_rent": 1800
+        
     },
     {
-        "address": {
-            "streetNo": 1,
-            "addressLine1": "Davisville Ave",
-            "addressLine2": "",
-            "city": "Toronto",
-            "province": "ON",
-            "country": "CA",
-            "postalCode": "M4S1G8"
-        },
-        "userId": null,
-        "units": [
-            {
-                "num_rooms": 4,
-                "kitchen": 1,
-                "washroom": 2,
-                "parking": 4,
-                "rent": null
-            },
-            {
-                "num_rooms": 4,
-                "kitchen": 1,
-                "washroom": 2,
-                "parking": 4,
-                "rent": null
-            }
-        ]
+        "city": "Markham",
+        "units": 1,
+        "monthly_expense": 1500,
+        "total_rent": 1800
+    },
+    {
+        "city": "Milton",
+        "units": 2,
+        "monthly_expense": 1500,
+        "total_rent": 1800
     }
 ]
